@@ -35,6 +35,15 @@ public class UserAdapter extends BaseAdapter
     @Override
     public View getView(int position, View convertView, ViewGroup parent)
     {
+        ViewHolder  mHolder;
+
         return null;
+    }
+
+    private class ViewHolder
+    {
+        String  deviceName;
+        String  deviceAddress;
+        String  deviceRssi;
     }
 }
